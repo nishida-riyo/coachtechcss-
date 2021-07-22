@@ -4,6 +4,8 @@
 
 .title {
   color: rgb(33, 42, 156);
+  display: flex;
+  justify-content: end;
 }
 
 .title_coachtech {
@@ -13,26 +15,26 @@
 .title_select {
   text-align: right;
   font-weight: bold;
- 
+}
+
+p {
+  display: inline-block;
 }
 
 .home {
-  display: inline-block;
-  margin: 0 30px 0 0;
+  margin: 20px 0 0 850px;
 }
 
 .jigyou {
-  display: inline-block;
-  margin: 0 30px 0 0;
+  margin: 20px 0 0 30px;
 }
 
 .saiyou {
-  display: inline-block;
-  margin: 0 30px 0 0;
+  margin: 20px 0 0 30px;
 }
 
 .otoi {
-  display: inline-block;
+  margin: 20px 0 0 30px;
 }
 
 .first {
